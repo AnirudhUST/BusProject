@@ -1,0 +1,26 @@
+
+body{
+    background-color: beige;
+
+}
+
+.about-us {
+    padding: 60px 0;
+  }
+  
+  .circular-image {
+    border-radius: 50%;
+  }
+  
+  .about-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    margin-bottom: 15px;
+  }
+.user-image{
+    width: 500px;
+    height:520px;
+}  
