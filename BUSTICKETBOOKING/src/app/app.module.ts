@@ -38,6 +38,8 @@ import { NavloginsignupComponent } from './navloginsignup/navloginsignup.compone
 import { CardComponent } from './card/card.component';
 import { AftreloginsearchComponent } from './aftreloginsearch/aftreloginsearch.component';
 import { Seatavailability1Component } from './seatavailability1/seatavailability1.component';
+import { SeatsComponent } from './seats/seats.component';
+import { PassengerComponent } from './passenger/passenger.component';
 
 
 
@@ -76,6 +78,8 @@ import { Seatavailability1Component } from './seatavailability1/seatavailability
     CardComponent,
     AftreloginsearchComponent,
     Seatavailability1Component,
+    SeatsComponent,
+    PassengerComponent,
    
   ],
   imports: [
