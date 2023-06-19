@@ -2,9 +2,9 @@ body{
 
   overflow: hidden;
 
-  background-color: rgba(0, 0, 0, 0.5);
-
-  background-image: url(../../assets/image/bus1.jpg);
+  background-color: rgba(208, 197, 164, 0.5);
+/* 
+  background-image: ; */
 
   background-size: cover;
 
@@ -42,7 +42,7 @@ body::before {
 
   height:500px;
 
-  margin-top: 56px;
+  margin-top: 16vh;
 
  
 

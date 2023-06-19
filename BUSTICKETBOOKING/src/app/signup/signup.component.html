@@ -55,7 +55,7 @@
       </div>
   </div> -->
 
-<app-nav1></app-nav1>
+<app-navloginsignup></app-navloginsignup>
 
   <body>
 
@@ -80,7 +80,7 @@
   
               <label for="name">Name</label>
   
-              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+              <input type="text" class="form-control" id="name" placeholder="Name" required [(ngModel)]="name">
   
             </div>
   
@@ -88,7 +88,7 @@
   
               <label for="email">Email</label>
   
-              <input type="email" class="form-control" required id="email" placeholder="Enter your email">
+              <input type="email" class="form-control" required id="email"placeholder="Email" required [(ngModel)]="email">
   
             </div>
   
@@ -96,7 +96,7 @@
   
               <label for="phone">Phone No</label>
   
-              <input type="tel" class="form-control" required id="phone" placeholder="Enter your phone number">
+              <input type="tel" class="form-control" required id="phone"  placeholder="Phone" required [(ngModel)]="mobile">
   
             </div>
   
@@ -104,7 +104,7 @@
   
               <label for="password">Password</label>
   
-              <input type="password" class="form-control" id="password" placeholder="Enter your password">
+              <input type="password" class="form-control" id="password" placeholder="Password" required [(ngModel)]="password">
   
             </div>
   
@@ -118,7 +118,7 @@
   
             <div class="center-button">
   
-              <button type="submit" class="btn btn-primary ">Signup</button>
+              <button type="submit" class="btn btn-primary " (click)="signup()">Signup</button>
   
             </div>
   

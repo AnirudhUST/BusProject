@@ -30,6 +30,16 @@ import { Nav1Component } from './nav1/nav1.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ScrollimageComponent } from './scrollimage/scrollimage.component';
 import { AdminpageComponent } from './adminpage/adminpage.component';
+import { NavbarmainComponent } from './navbarmain/navbarmain.component';
+import { UserseachComponent } from './userseach/userseach.component';
+import { BusseatComponent } from './busseat/busseat.component';
+import { BookticketpageComponent } from './bookticketpage/bookticketpage.component';
+import { NavloginsignupComponent } from './navloginsignup/navloginsignup.component';
+import { CardComponent } from './card/card.component';
+import { AftreloginsearchComponent } from './aftreloginsearch/aftreloginsearch.component';
+import { Seatavailability1Component } from './seatavailability1/seatavailability1.component';
+
+
 
 
 @NgModule({
@@ -58,6 +68,14 @@ import { AdminpageComponent } from './adminpage/adminpage.component';
     Nav1Component,
     ScrollimageComponent,
     AdminpageComponent,
+    NavbarmainComponent,
+    UserseachComponent,
+    BusseatComponent,
+    BookticketpageComponent,
+    NavloginsignupComponent,
+    CardComponent,
+    AftreloginsearchComponent,
+    Seatavailability1Component,
    
   ],
   imports: [
@@ -66,6 +84,7 @@ import { AdminpageComponent } from './adminpage/adminpage.component';
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
+    
    
     
     

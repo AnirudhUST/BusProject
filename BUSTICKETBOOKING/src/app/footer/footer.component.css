@@ -1,5 +1,9 @@
 .contact-footer {
-    background-color: #cce9ed;;
+  background: rgba(103, 74, 52, 0.75);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+
     padding: 30px 0;
     text-align: center;
   }

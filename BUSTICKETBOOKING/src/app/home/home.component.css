@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
 
   body {
     font-family: Arial, sans-serif;
-    background-color: #f1f1f1;
+    background-color: #fcfbfb;
     background-image: url(../../assets/image/bus1.jpg);
   }
   
@@ -49,4 +49,6 @@
     .container {
       max-width: 300px;
     }
-  }
+  } */
+
+ 
