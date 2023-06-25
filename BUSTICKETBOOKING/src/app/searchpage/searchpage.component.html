@@ -54,7 +54,7 @@
 
       <select class="form-control" id="from"[(ngModel)]="textbox2">
 
-        <option value="">From</option>
+       
 
         <option *ngFor="let value of dropdownValues" [value]="value">{{ value }}</option>
 
@@ -70,7 +70,7 @@
 
       <select class="form-control" id="to"  [(ngModel)]="textbox3">
 
-        <option value="">To</option>
+        
 
         <option *ngFor="let value of dropdownValues" [value]="value">{{ value }}</option>
 
@@ -109,7 +109,8 @@
           <th >Bus Type</th>
           <th >Total Seats</th>
           <th >Fare</th>
-          <!-- <th >Action</th> -->
+          <th>Book Now</th>
+          
         </tr>
       </thead>
       <tbody>
@@ -122,12 +123,85 @@
           <td>{{ busDto[i].busType }}</td>
           <td>{{ busDto[i].totalSeats }}</td>
           <td>{{ fare[i] }}</td>
-          <!-- (click)="toggleDivVisibility('1')" -->
+         
           <td><button type="submit" (click)="getseats(schedule.scheduleId)"(click)="setfare(fare[i])"(click)="set()" routerLink="/seats">VIEW SEATS</button></td>
         </tr>
       </tbody>
     </table>
+
+
+    <!-- <div class="container2">
+
+      <div class="card">
+  
+        <div class="card-body">
+  
+          <div class="bus-details" *ngFor="let schedule of schedules; let i = index">
+  
+            <div class="row">
+  
+              <div class="col" >
+  
+                <p><strong class="bus-number">No. {{ busDto[i].busNo }}</strong></p>
+  
+                <p><strong style="font-size: 2.0rem;">{{ busDto[i].busName }}</strong></p>
+  
+                <div class="row">
+  
+                  <div class="col">
+  
+                    <p><i class="fas fa-snowflake"></i> {{ busDto[i].busType }}</p>
+  
+                    <p>
+  
+                      <i class="fas fa-wifi"></i>
+  
+                      <br>
+  
+                     
+  
+                    </p>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+              <div class="col date">
+  
+                <p><strong>Departure:</strong> {{ schedule.departureTime }}</p>
+  
+                <p><strong>Arrival:</strong> {{ schedule.arrivalTime }}</p>
+  
+              </div>
+  
+              <div class="col date date-column">
+  
+                <p><strong>Date:</strong> {{ schedule.date }}</p>
+  
+              </div>
+  
+              <div class="col price">
+  
+                <p class="amount"><strong>$ {{ fare[i] }}</strong></p>
+  
+                <p><strong>Seats:</strong> {{ busDto[i].totalSeats }}</p>
+  
+                <button class="btn btn-sm btn-primary"  (click)="getseats(schedule.scheduleId)"(click)="setfare(fare[i])"(click)="set()" routerLink="/seats">View Seats</button>
+  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+      </div>
+  
     </div>
+    </div> -->
 
 
 

@@ -40,6 +40,8 @@ import { AftreloginsearchComponent } from './aftreloginsearch/aftreloginsearch.c
 import { Seatavailability1Component } from './seatavailability1/seatavailability1.component';
 import { SeatsComponent } from './seats/seats.component';
 import { PassengerComponent } from './passenger/passenger.component';
+import { TicketComponent } from './ticket/ticket.component';
+import { BuslistComponent } from './buslist/buslist.component';
 
 
 
@@ -80,6 +82,8 @@ import { PassengerComponent } from './passenger/passenger.component';
     Seatavailability1Component,
     SeatsComponent,
     PassengerComponent,
+    TicketComponent,
+    BuslistComponent,
    
   ],
   imports: [

@@ -14,154 +14,125 @@
   </div> -->
 
 
-  <body>
 
-    <div class="top-container">
-  
-      <div class="row">
-  
-        <div class="col-md-12">
-  
-          <div class="nav">
-  
-            <div class="row justify-content-between">
-  
-              <div class="col-md-6">
-  
-                <img src="../../assets/image/logo (2).png" alt="Logo" class="logo">
-  
-              </div>
-  
-              <div class="col-md-6 search-bar">
-  
-                <input type="text" class="form-control" placeholder="Search">
-  
-                <i class="fa fa-search search-icon"></i>
-  
-                <button class="btn btn-primary search-button">Search</button>
-  
-               
-  
-              </div>
-  
-            </div>
-  
-            <div class="logout-container">
-  
-            <a href="www.facebook.com" class="user-profile">
-  
-              <img src="https://tse4.mm.bing.net/th/id/OIP.scExuNqSeL_zvoAQbH0gWAHaHa?pid=ImgDet&rs=1" alt="User Image" class="user-image rounded-circle">
-  
-            </a>
-  
-            <button class="logout-button">Logout</button>
-  
-          </div>
-  
-          </div>
-  
-        </div>
-  
-      </div>
-  
-    </div>
-  
-    <div class="row">
-  
-      <div class="col-md-6 offset-md-3">
-  
+
+   <app-nav1></app-nav1> 
+   
+
+  <div class="row">
+
+    <div class="col-md-6 offset-md-3">
+
+      <div class="container">
+
         <div class="form-container">
-  
+
           <form>
-  
+
             <div class="form-row">
-  
+
               <div class="form-group col-md-6">
-  
-                <label for="bus-id">Bus Name</label>
-  
+
+                <label for="bus-id">Bus ID</label>
+
                 <input type="text" class="form-control" id="bus-id">
-  
+
               </div>
-  
+
               <div class="form-group col-md-6">
-  
-                <label for="bus-name">Total seats</label>
-  
+
+                <label for="bus-name">Bus Name</label>
+
                 <input type="text" class="form-control" id="bus-name">
-  
+
               </div>
-  
+
             </div>
-  
+
             <div class="form-row">
-  
+
               <div class="form-group col-md-6">
-  
-                <label for="source">Type</label>
-  
-                <select class="form-control" id="source">
-  
-                  <option value="option1">AC</option>
-  
-                  <option value="option2">NON-AC</option>
-  
+
+                <label for="bus-seats">Total seats</label>
+
+                <input type="text" class="form-control" id="bus-seats">
+
+              </div>
+
+              <div class="form-group col-md-6">
+
+                <label for="bus-type">Type</label>
+
+                <select class="form-control" id="bus-type">
+
+                  <option value="AC">AC</option>
+
+                  <option value="NON-AC">NON-AC</option>
+
                 </select>
-  
+
               </div>
-  
-              <div class="form-group col-md-6">
-  
-                <label for="bus-name">Bus No</label>
-  
-                <input type="text" class="form-control" id="bus-name">
-  
-              </div>
-  
+
             </div>
-  
+
             <div class="form-row">
-  
+
               <div class="form-group col-md-6">
-  
-                <label for="bus-name">Reg No</label>
-  
-                <input type="text" class="form-control" id="bus-name">
-  
+
+                <label for="bus-number">Bus No</label>
+
+                <input type="text" class="form-control" id="bus-number">
+
               </div>
-  
+
               <div class="form-group col-md-6">
-  
-                <label for="bus-name">Engine No</label>
-  
-                <input type="text" class="form-control" id="bus-name">
-  
+
+                <label for="reg-number">Reg No</label>
+
+                <input type="text" class="form-control" id="reg-number">
+
               </div>
-  
+
             </div>
-  
-  
-  
-  
+
+            <div class="form-row">
+
+              <div class="form-group col-md-6 offset-md-3">
+
+                <label for="engine-number">Engine No</label>
+
+                <input type="text" class="form-control" id="engine-number">
+
+              </div>
+
+            </div>
+
+
+
+
             <div class="text-center">
-  
+
               <button type="submit" class="btn btn-primary">Add</button>
-  
+
             </div>
-  
+
           </form>
-  
+
         </div>
-  
+
       </div>
-  
+
     </div>
+
+  </div>
+
+
+
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script src="https://kit.fontawesome.com/your-fontawesome-kit.js"></script>
+
+    <!-- <app-footer></app-footer> -->
   
   
-  
-  
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  
-    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js"></script>
-  
-  </body>

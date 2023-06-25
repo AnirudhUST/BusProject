@@ -13,12 +13,18 @@ import { SearchpageComponent } from './searchpage/searchpage.component';
 import { SeatavailabilityComponent } from './seatavailability/seatavailability.component';
 import { SignupComponent } from './signup/signup.component';
 import { UpdatebusComponent } from './updatebus/updatebus.component';
+import { UserseachComponent } from './userseach/userseach.component';
+import { SeatsComponent } from './seats/seats.component';
+import { PassengerComponent } from './passenger/passenger.component';
+import { TicketComponent } from './ticket/ticket.component';
 
 const routes: Routes = [
   {
     path:"login",
     component:LoginComponent
   },
+  {path:"usersearch",
+  component:UserseachComponent},
   {
     path:"nn",
     component:HomeComponent
@@ -26,6 +32,12 @@ const routes: Routes = [
   {
     path:"seatavailability",
     component:SeatavailabilityComponent
+  },
+  {path:"passenger",
+  component:PassengerComponent},
+  {
+    path:"seats",
+    component:SeatsComponent
   },
   {
     path:"signup",
@@ -63,9 +75,19 @@ const routes: Routes = [
     path:"mainhomepage",
     component:MainhomepageComponent
   },
+  {path:"ticket",
+  component:TicketComponent},
   {
     path:"",
     component:HomeComponent
+  },
+  {
+    path:"adminhome",
+    component:AdminhomepageComponent
+  },
+  {
+    path:"schedule",
+    component:ScheduleComponent
   }
   
 ];

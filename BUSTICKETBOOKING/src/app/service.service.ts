@@ -18,11 +18,12 @@ export class ServiceService {
 
   s:Seat[]=[];
   fare: number=0;
-  date: String='';
+  date: string='';
   seat: Seat[]=[];
   fhault: string='';
   thault: string='';
   numofseats: Array<number>=[];
+  scheduleId: number=0;
 
   constructor(private http:HttpClient) {
     this.signupUrl="http://localhost:8080/user";
